@@ -1,5 +1,6 @@
 # UMI6R2
 ## Universal modbus inputs module
+###### jatel.sk
 **Specification:**  
 Supply: 12 - 30V / 50mA  
 Core: Arduino Nano  
