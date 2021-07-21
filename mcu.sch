@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:umi6r2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -26,7 +25,7 @@ F 3 "~" H 2950 2100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A401
+L umi6r2-rescue:Arduino_Nano_v3.x-MCU_Module A401
 U 1 1 5DC741DC
 P 7850 4000
 F 0 "A401" H 7500 3050 50  0000 C CNN
@@ -59,9 +58,11 @@ F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 3900 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP_Small C401
+L umi6r2-rescue:CP_Small-Device C401
 U 1 1 5DE25965
 P 4150 1750
+AR Path="/5DE25965" Ref="C401"  Part="1" 
+AR Path="/5DB9CE60/5DE25965" Ref="C401"  Part="1" 
 F 0 "C401" H 4238 1796 50  0000 L CNN
 F 1 "47u/35V" H 4238 1705 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4150 1750 50  0001 C CNN
@@ -70,9 +71,11 @@ F 3 "~" H 4150 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C406
+L umi6r2-rescue:CP_Small-Device C406
 U 1 1 5DE2610A
 P 5950 1750
+AR Path="/5DE2610A" Ref="C406"  Part="1" 
+AR Path="/5DB9CE60/5DE2610A" Ref="C406"  Part="1" 
 F 0 "C406" H 6038 1796 50  0000 L CNN
 F 1 "100u/16V" H 6038 1705 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5950 1750 50  0001 C CNN

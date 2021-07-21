@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:umi6r2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -174,9 +173,11 @@ Wire Wire Line
 Wire Wire Line
 	4900 2650 4900 2800
 $Comp
-L Device:CP_Small C301
+L umi6r2-rescue:CP_Small-Device C301
 U 1 1 5DBD1703
 P 4650 2950
+AR Path="/5DBD1703" Ref="C301"  Part="1" 
+AR Path="/5DB9CE03/5DBD1703" Ref="C301"  Part="1" 
 F 0 "C301" H 4350 2950 50  0000 L CNN
 F 1 "100u/16V" H 4250 2850 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4650 2950 50  0001 C CNN
@@ -185,9 +186,11 @@ F 3 "~" H 4650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C302
+L umi6r2-rescue:CP_Small-Device C302
 U 1 1 5DBD2456
 P 4650 4500
+AR Path="/5DBD2456" Ref="C302"  Part="1" 
+AR Path="/5DB9CE03/5DBD2456" Ref="C302"  Part="1" 
 F 0 "C302" H 4400 4550 50  0000 L CNN
 F 1 "100u/16V" H 4250 4400 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4650 4500 50  0001 C CNN
